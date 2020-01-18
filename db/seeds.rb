@@ -9,3 +9,7 @@
 
 Netum.create(:name => '宇宙')
 Netum.create(:name => '観察日記')
+Neta2.create(:name => '猫')
+Neta2.create(:name => '少年')
+Neta2.create(:name => '少女')
+
