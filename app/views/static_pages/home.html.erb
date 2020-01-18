@@ -5,12 +5,18 @@
 現在登録されているネタは次のとおりです。
 </p>
 <hr class = "my-4">
+<h4>前に来るネタ</h4>
+<p>
+<% @neta2.each do |neta2| %>
+<%= neta2.name %><br />
+<% end %>
+</p>
+<h4>後ろに来るネタ</h4>
 <p>
 <% @netum.each do |netum| %>
 <%= netum.name %><br />
 <% end %>
 </p>
- <hr class = "my-4">
 <button type="button" class="btn btn-primary btn-lg" onclick="location.href='/static_pages/help'">Neta Generate !!</button>
 
   </div>
