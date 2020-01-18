@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+#   coding: utf-8
+
+Netum.create(:name => '宇宙')
+Netum.create(:name => '観察日記')
