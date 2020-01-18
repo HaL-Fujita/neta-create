@@ -5,6 +5,7 @@
 
 <p>
 <% @netum.each do |netum| %>
-[ネタ] <%= netum.name %><br />
+<%= netum.name %><br />
 <% end %>
 </p>
+<button type="button" class="btn btn-primary btn-lg" onclick="location.href='/static_pages/help'">Neta Generate !!</button>

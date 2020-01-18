@@ -4,5 +4,6 @@ class StaticPagesController < ApplicationController
   end
 
   def help
+	  @netum= Netum.all.sample
   end
 end
